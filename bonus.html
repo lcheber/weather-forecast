@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+                <title>MyWeaterApp</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="style.css">
+                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>My Weather App</h1>
+
+        <div id="main">
+                <form id="form">
+                    <label for="city"></label>
+                    <input type="text" id="city" name="city" required="required" placeholder="Enter a city name">
+                    <label for='days'></label>
+                        <select name='days' id='days'>
+                            <option value=1>1 Day</option>
+                            <option value=3>3 Days</option>
+                            <option value=5>5 Days</option>
+                            <option value=7>7 Days</option>
+                        </select>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+
+        </div>
+        <div id="divCity">
+            
+        </div>
+        <div id="forecast">
+            
+        </div>
+        <script src="bonus.js"></script>
+    </body>
+</html>

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: skyblue;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bodyDay {
+    background-color: skyblue;
+}
+
+.bodyNight {
+    background-color: #191970;
+}
+
+/* * {
+    background: orange !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}  */
+
+/* #main {
+    position: fixed;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:orange; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=reset] {
+    padding:5px 15px; 
+    background:grey; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+select {
+    padding:5px 15px; 
+    background:white; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+#divCity {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+#icon {
+    display:inline-block;
+    padding-top: 20px;
+    margin: auto;
+    display: block;  
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+text-align: center;
+}
+
+.pNight {
+    color: white;
+}
+
+img {
+    min-width: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.imgNight { 
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 1px 0 orange,
+    -1px 1px 0 orange,
+    1px -1px 0 orange,
+    -1px -1px 0 orange,
+    0px 1px 0 orange,
+    0px -1px 0 orange,
+    -1px 0px 0 orange,
+    1px 0px 0 orange,
+    2px 2px 0 orange,
+    -2px 2px 0 orange,
+    2px -2px 0 orange,
+    -2px -2px 0 orange,
+    0px 2px 0 orange,
+    0px -2px 0 orange,
+    -2px 0px 0 orange,
+    2px 0px 0 orange,
+    1px 2px 0 orange,
+    -1px 2px 0 orange,
+    1px -2px 0 orange,
+    -1px -2px 0 orange,
+    2px 1px 0 orange,
+    -2px 1px 0 orange,
+    2px -1px 0 orange,
+    -2px -1px 0 orange;
+}
